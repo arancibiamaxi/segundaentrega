@@ -2,31 +2,28 @@ body
 {
     background-image: url("https://web-back.perfectgym.com/sites/default/files/styles/460x/public/fit%20stats.jpg?itok=nfF02G2C"); margin: 0px; padding: 0px; 
     background-size: cover;
-
 }
-.arriba
-{
+.header
+{ 
     background-color: rgba(0, 0, 0, 0.432);
     box-shadow: 10px 12px 120px rgb(12, 1, 1);
-    margin: 50px
     
 }
-.medio
+.main
 {
     box-shadow: 10px 12px 12px rgb(12, 1, 1);
     font-weight: bold;
     text-align: center;
-    margin: 1px;
     padding: 0px;
-    background-color: #82aa968f;   
+    background-color: #82aa968f;  
+    
 }
-.medio:hover
+.main:hover
 {
     box-shadow: 10px 12px 120px rgb(12, 1, 1);
 }
-.abajo
+.footer
 {
-    
     height: 40%;
     margin: 0px;
     padding: 0px;
@@ -36,12 +33,11 @@ img
 {  
     box-shadow: 10px 10px 20px rgb(12, 1, 1);
     border-radius: 35%;
-    margin-bottom: 27px;
+    margin-bottom: 50px;
 }
 img:hover
 {
     box-shadow: 10px 10px 100px rgb(12, 1, 1); 
-    
 }
 .caja1
 {
@@ -52,7 +48,6 @@ img:hover
 }
 .caja3
 {
-   
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.726);
@@ -74,42 +69,88 @@ h7
 {
     
     text-align: center;
-    box-shadow: 10px 12px 10px rgb(12, 1, 1);
+    margin: 15px;
     border-radius: 25%;
-    background-color: #396b513f;
-    margin: 7px;
-    border-radius: 30%;
-    border-color: rgb(196, 183, 183);
-    border-style:ridge;
+    width: 50%;
+    margin-left: 30%;
 }
 .cajadireccion:hover
 {
-    box-shadow: 10px 12px 20px rgb(3, 88, 10);
-    
+    box-shadow: 10px 12px 20px #156d42a4;
 }
 .cajalogo
 {
     margin: 15px;
-    height: 80%;
+    height: 75%;
     border-style: groove;
     text-align: center;
-    border-radius: 40%;
+    border-radius: 35%;
     background-color: #156d42a4;
     font-weight: bold;
     border: 3px solid rgb(104, 153, 123);
     border-color: rgb(196, 183, 183);
-    width: 77%;
+    width: 73%;
     margin-left: 15%;
-    
 }
 h8
 {
     font-size: 25px;
     color: rgb(14, 201, 45);
     font-style:oblique;
-   
+}
+h9
+{
+ font-size: 20px;
+}
+p
+{
+    font-size: 20px;
+    color: black;
 }
 
-
-
-  
+.cajacontactos
+{
+    box-shadow: 10px 12px 12px rgb(12, 1, 1);
+    margin: 0px;
+    padding: 0;
+    background-color: rgba(16, 172, 112, 0.651);
+    width: 70%;
+    height: 65%;
+    text-align: center;
+    border-radius: 30%;
+    margin-top: 4%;
+    margin-left: 10%;
+    border: 3px solid rgb(104, 153, 123);
+}
+.cajacontactos:hover
+{
+    box-shadow: 10px 12px 12px rgb(12, 1, 1);
+    border-color: rgb(196, 183, 183);
+    border-radius: 60px;   
+}
+.cajahorarios
+{
+    box-shadow: 10px 12px 12px rgb(12, 1, 1);
+    margin: 0px;
+    padding: 0;
+    background-color: rgba(16, 172, 112, 0.651);
+    width: 80%;
+    height: 75%;
+    text-align: center;
+    border-radius: 30%;
+    margin-top: 4%;
+    margin-left: 10%;
+    border: 3px solid rgb(104, 153, 123);
+}
+.cajahorarios:hover
+{
+    box-shadow: 10px 12px 12px rgb(12, 1, 1);
+    border-color: rgb(196, 183, 183);
+    border-radius: 60px;   
+}
+a
+{
+    
+    margin: 15px;
+   
+}
