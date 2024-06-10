@@ -1,3 +1,8 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
 body
 {
     background-image: url("https://web-back.perfectgym.com/sites/default/files/styles/460x/public/fit%20stats.jpg?itok=nfF02G2C"); margin: 0px; padding: 0px; 
@@ -7,6 +12,9 @@ body
 { 
     background-color: rgba(0, 0, 0, 0.432);
     box-shadow: 10px 12px 120px rgb(12, 1, 1);
+    margin: 0px;
+    padding: 0px;
+    height: 40%;
     
 }
 .main
@@ -15,8 +23,11 @@ body
     font-weight: bold;
     text-align: center;
     padding: 0px;
-    background-color: #82aa968f;  
-    
+    background-color: #82aa968f; 
+    margin: 0; 
+   
+   
+
 }
 .main:hover
 {
@@ -28,16 +39,21 @@ body
     margin: 0px;
     padding: 0px;
     background-color: rgba(131, 113, 113, 0);
+    
 }
-img
+.main img
 {  
     box-shadow: 10px 10px 20px rgb(12, 1, 1);
     border-radius: 35%;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    transition: all 0.3s;
+    background-size: cover;
 }
-img:hover
+.main img:hover
 {
     box-shadow: 10px 10px 100px rgb(12, 1, 1); 
+    transform: scale(1.2);
 }
 .caja1
 {
@@ -65,31 +81,23 @@ h7
     font-size: 55px;
     color: #0ea15ae8;
 }
-.cajadireccion
-{
-    
-    text-align: center;
-    margin: 15px;
-    border-radius: 25%;
-    width: 50%;
-    margin-left: 30%;
-}
+
 .cajadireccion:hover
 {
     box-shadow: 10px 12px 20px #156d42a4;
 }
-.cajalogo
+.header .cajalogo
 {
     margin: 15px;
-    height: 75%;
+    height: 65%;
     border-style: groove;
     text-align: center;
     border-radius: 35%;
-    background-color: #156d42a4;
+    background-color: #156d42e8;
     font-weight: bold;
     border: 3px solid rgb(104, 153, 123);
     border-color: rgb(196, 183, 183);
-    width: 73%;
+    width: 70%;
     margin-left: 15%;
 }
 h8
@@ -115,9 +123,9 @@ p
     padding: 0;
     background-color: rgba(16, 172, 112, 0.651);
     width: 70%;
-    height: 65%;
+    height: 100%;
     text-align: center;
-    border-radius: 30%;
+    border-radius: 20%;
     margin-top: 4%;
     margin-left: 10%;
     border: 3px solid rgb(104, 153, 123);
@@ -126,7 +134,7 @@ p
 {
     box-shadow: 10px 12px 12px rgb(12, 1, 1);
     border-color: rgb(196, 183, 183);
-    border-radius: 60px;   
+    border-radius: 40px;   
 }
 .cajahorarios
 {
@@ -134,12 +142,12 @@ p
     margin: 0px;
     padding: 0;
     background-color: rgba(16, 172, 112, 0.651);
-    width: 80%;
-    height: 75%;
+    width: 90%;
+    height: 100%;
     text-align: center;
     border-radius: 30%;
     margin-top: 4%;
-    margin-left: 10%;
+    margin-left: 5%;
     border: 3px solid rgb(104, 153, 123);
 }
 .cajahorarios:hover
@@ -153,4 +161,22 @@ a
     
     margin: 15px;
    
+}
+
+    
+
+.footer img
+{
+    margin: 50px;
+    border-radius: 50%;
+}
+.header img
+{
+    margin-top: 1px;
+    border-radius: 30%;
+}
+ul
+{
+    justify-content: space-around;
+  
 }
