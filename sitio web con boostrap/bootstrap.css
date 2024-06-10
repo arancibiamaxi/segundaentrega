@@ -3,91 +3,70 @@
     padding: 0;
     margin: 0;
 }
-body
-{
+body{
     background-image: url("https://web-back.perfectgym.com/sites/default/files/styles/460x/public/fit%20stats.jpg?itok=nfF02G2C"); margin: 0px; padding: 0px; 
     background-size: cover;
 }
-.header
-{ 
+.header{ 
     background-color: rgba(0, 0, 0, 0.432);
     box-shadow: 10px 12px 120px rgb(12, 1, 1);
     margin: 0px;
     padding: 0px;
-    height: 40%;
-    
+    height: 39%;
 }
-.main
-{
+.main{
     box-shadow: 10px 12px 12px rgb(12, 1, 1);
     font-weight: bold;
     text-align: center;
     padding: 0px;
     background-color: #82aa968f; 
     margin: 0; 
-   
-   
-
 }
-.main:hover
-{
+.main:hover{
     box-shadow: 10px 12px 120px rgb(12, 1, 1);
 }
-.footer
-{
+.footer{
     height: 40%;
     margin: 0px;
     padding: 0px;
     background-color: rgba(131, 113, 113, 0);
-    
 }
-.main img
-{  
+.main img{  
     box-shadow: 10px 10px 20px rgb(12, 1, 1);
     border-radius: 35%;
     margin-top: 30px;
     margin-bottom: 60px;
     transition: all 0.3s;
     background-size: cover;
+    border: 3px solid black;
 }
-.main img:hover
-{
+.main img:hover{
     box-shadow: 10px 10px 100px rgb(12, 1, 1); 
     transform: scale(1.2);
 }
-.caja1
-{
+.caja1{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.726);
     text-align: center;
 }
-.caja3
-{
+.caja3{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.726);
     text-align: center;
 }
-.caja2
-{
+.caja2{
     background-color: rgba(0, 0, 0, 0.726);
     height: 100%;
     width: 100%;
     text-align: center;
 }
-h7
-{
+h7{
     font-size: 55px;
     color: #0ea15ae8;
 }
-
-.cajadireccion:hover
-{
-    box-shadow: 10px 12px 20px #156d42a4;
-}
-.header .cajalogo
-{
+.header .cajalogo{
     margin: 15px;
     height: 65%;
     border-style: groove;
@@ -100,23 +79,19 @@ h7
     width: 70%;
     margin-left: 15%;
 }
-h8
-{
+h8{
     font-size: 25px;
     color: rgb(14, 201, 45);
     font-style:oblique;
 }
-h9
-{
+h9{
  font-size: 20px;
 }
-p
-{
+p{
     font-size: 20px;
     color: black;
 }
-.cajahorarios
-{
+.cajahorarios{
     margin: 20px;
     text-align: center;
     color: rgb(41, 170, 16);
@@ -135,22 +110,18 @@ p
 a{
     margin: 10px;
 }
-.footer img
-{
+.footer img{
     margin: 50px;
     border-radius: 50%;
 }
-.header img
-{
+.header img{
     margin-top: 1px;
     border-radius: 30%;
 }
-ul
-{
+ul{
     justify-content: space-around;
 }
-.contactoprofes 
-{
+.contactoprofes {
     margin: 20px;
     text-align: center;
     color: rgb(41, 170, 16);
@@ -159,11 +130,8 @@ ul
     border-style: groove;
     width: 80%;
     margin-left: 10%;
-    
 }
 .cajacontactos{
-
-
 margin: 20px;
 text-align: center;
 color: rgb(41, 170, 16);
