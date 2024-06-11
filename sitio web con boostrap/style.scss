@@ -1,0 +1,138 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://web-back.perfectgym.com/sites/default/files/styles/460x/public/fit%20stats.jpg?itok=nfF02G2C"); margin: 0px; padding: 0px; 
+    background-size: cover;
+    
+    }
+
+ .header{ 
+        background-color: rgba(0, 0, 0, 0.432);
+        box-shadow: 10px 12px 120px rgb(12, 1, 1);
+        margin: 0px;
+        padding: 0px;
+        height: 39%;
+          
+            .cajalogo 
+            {
+
+               margin: 15px;
+                height: 65%;
+                border-style: groove;
+                text-align: center;
+                border-radius: 35%;
+                background-color: #156d42e8;
+                font-weight: bold;
+                border: 3px solid rgb(104, 153, 123);
+                border-color: rgb(196, 183, 183);
+                width: 70%;
+                margin-left: 15%;
+             }
+             img{
+                margin-top: 1px;
+                border-radius: 30%;
+             }
+}
+ .main{
+    box-shadow: 10px 12px 12px rgb(12, 1, 1);
+ font-weight: bold;
+     text-align: center;
+     padding: 0px;
+     background-color: #82aa968f; 
+     margin: 0;
+
+          
+             .main:hover{
+                box-shadow: 10px 12px 120px rgb(12, 1, 1);
+           }
+           img{  
+            box-shadow: 10px 10px 20px rgb(12, 1, 1);
+            border-radius: 35%;
+            margin-top: 30px;
+            margin-bottom: 60px;
+            transition: all 0.3s;
+            background-size: cover;
+            border: 3px solid black;
+           
+
+           }
+           img:hover{
+            box-shadow: 10px 10px 100px rgb(12, 1, 1); 
+            transform: scale(1.2);
+        }
+           
+}
+.footer{
+    
+        height: 40%;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgba(131, 113, 113, 0);
+
+        .caja1{
+            
+            background-color: rgba(0, 0, 0, 0.726);
+            text-align: center;
+        }
+        .caja3{
+            
+            background-color: rgba(0, 0, 0, 0.726);
+            text-align: center;
+        }
+        .caja2{
+            background-color: rgba(0, 0, 0, 0.726);
+            
+            text-align: center;
+        }
+        img
+        {
+            border-radius: 50%;
+            margin: 25px;
+        }
+}
+ul{
+    justify-content: space-around;
+}
+.contactoprofes {
+    margin: 20px;
+    text-align: center;
+    color: rgb(41, 170, 16);
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 15%;
+    border-style: groove;
+    width: 80%;
+    margin-left: 10%;
+}
+.cajacontactos{
+margin: 20px;
+text-align: center;
+color: rgb(41, 170, 16);
+background-color: rgba(0, 0, 0, 0.815);
+border-radius: 15%;
+border-style: groove;
+width: 80%;
+margin-left: 10%;
+height: 70%;
+}
+a{
+    margin: 10px;
+}
+h8{
+    font-size: 25px;
+    color: rgb(14, 201, 45);
+    font-style:oblique;
+}
+h9{
+ font-size: 20px;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+h7{
+    font-size: 55px;
+    color: #0ea15ae8;
+}
