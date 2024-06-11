@@ -31,7 +31,7 @@ body {
   margin-left: 15%;
 }
 .header .cajalogo h1 {
-  color: rgb(241, 230, 230);
+  color: rgb(20, 172, 45);
 }
 .header img {
   margin-top: 0px;
@@ -100,9 +100,13 @@ ul a:hover {
   text-align: center;
 }
 .footer .caja1 h8 {
-  font-size: 25px;
-  color: rgb(13, 138, 34);
+  font-size: 23px;
+  color: rgb(18, 179, 45);
   font-style: oblique;
+}
+.footer .caja1 h4 {
+  color: black;
+  font-size: 21px;
 }
 .footer .caja2 {
   background-color: rgba(0, 0, 0, 0.699);
@@ -110,7 +114,7 @@ ul a:hover {
 }
 .footer .caja2 h7 {
   font-size: 55px;
-  color: rgb(13, 138, 34);
+  color: rgb(20, 172, 45);
 }
 .footer .caja3 {
   background-color: rgba(0, 0, 0, 0.699);
@@ -125,36 +129,42 @@ ul a:hover {
 .cajahorarios {
   margin: 20px;
   text-align: center;
-  color: rgb(41, 170, 16);
-  background-color: rgba(0, 0, 0, 0.815);
+  color: rgb(0, 0, 0);
+  background-color: rgba(221, 96, 13, 0.822);
   border-radius: 15%;
   border-style: groove;
   width: 80%;
   margin-left: 10%;
-  height: 70%;
+  height: 90%;
+  border-color: rgb(231, 223, 223);
+  border: 3px solid rgb(131, 145, 136);
 }
 
 .contactoprofes {
   margin: 20px;
   text-align: center;
-  color: rgb(41, 170, 16);
-  background-color: rgba(0, 0, 0, 0.562);
+  color: rgb(0, 0, 0);
+  background-color: rgba(221, 96, 13, 0.822);
   border-radius: 15%;
   border-style: groove;
   width: 80%;
   margin-left: 10%;
-  height: 35%;
+  height: 80%;
+  border-color: rgb(197, 179, 179);
+  border: 3px solid rgb(131, 145, 136);
 }
 
 .contactomio {
   margin: 20px;
   text-align: center;
-  color: rgb(41, 170, 16);
-  background-color: rgba(0, 0, 0, 0.699);
+  color: rgb(0, 0, 0);
+  background-color: rgba(221, 96, 13, 0.822);
   border-radius: 15%;
   border-style: groove;
+  border-color: rgb(197, 179, 179);
   width: 80%;
   margin-left: 10%;
+  border: 3px solid rgb(131, 145, 136);
 }
 
 a {
@@ -170,9 +180,20 @@ p {
   color: black;
 }
 
-h7 {
-  font-size: 55px;
-  color: rgba(14, 161, 90, 0.9098039216);
+.navbar {
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.753);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.685);
+}
+.navbar a {
+  transition: all 0.3s;
+}
+.navbar a:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
