@@ -1,109 +1,111 @@
 *
-{
-    padding: 0;
-    margin: 0;
-}
+{ padding: 0;
+    margin: 0;}
 body{
     background-image: url("https://web-back.perfectgym.com/sites/default/files/styles/460x/public/fit%20stats.jpg?itok=nfF02G2C"); margin: 0px; padding: 0px; 
     background-size: cover;
-
-    }
-
- .header{ 
-    background-color: rgba(29, 31, 29, 0.555);   
-        box-shadow: 10px 12px 20px rgb(12, 1, 1);
+    
+   }
+    ul{
+        justify-content: space-around;
         margin: 0px;
         padding: 0px;
-        height: 33%;
-       
-            .cajalogo 
-            {
-                margin: 15px;
-                height: 80%;
-                border-style: groove;
-                text-align: center;
-                border-radius: 35%;
-                background-color: #1314149f; 
-                font-weight: bold;
-                border: 3px solid rgb(131, 145, 136);
-                border-color: rgba(150, 163, 150, 0.959);
-                width: 70%;
-                margin-left: 15%;
-                h1
-                {
-                    color: rgb(20, 172, 45);
-                }
-             }
-             img{
-                margin-top: 0px;
-                border-radius: 30%;
-               border-style: inset;
-             
+        text-align: center;
+        font-size: 12px;
+        font-style:inherit;
+          a{
+            transition: all 0.4s;
             }
+           a:hover{
+             transform: scale(1.3);
+           }
+           img{
+            border-radius: 28%;
+            margin: 2px;
+            border: 2px solid rgb(131, 145, 136);
+            box-shadow: 10px 10px 5px rgba(61, 60, 60, 0.767);
+         }
+         img:hover
+         {
+            box-shadow: 5px 5px 5px rgb(53, 51, 51);
+         }
 }
-  ul{
-    
-                justify-content: space-around;
-                margin: 0px;
-                padding: 0px;
+.header{ 
+    border-top: 1px solid black;
+    background-color: rgba(21, 22, 21, 0.87);   
+    box-shadow: 10px 12px 150px rgb(158, 79, 5);
+    margin: 0px;
+    padding: 0px;
+    height: 36%;
+   
+          .header:hover
+          {
+            box-shadow: 10px 12px 15px rgb(150, 73, 1);
+          }
+        .cajalogo 
+            {
                 text-align: center;
-                font-size: 13px;
-               
+                border-radius: 10%;
+                background-color: rgba(230, 104, 20, 0.753);
+                font-weight: bold;
+                border: 2px solid rgb(131, 145, 136);
+                margin-left: 15%;
+                width: 69%;
+                margin-top: 10px;
                 
-                  a{
-                    transition: all 0.4s;
-                    
+               h1
+                {
+                    margin: 3px;
+                    color: rgba(0, 0, 0, 0.945);  
                    
-                     }
-                   a:hover{
-                   
-                    transform: scale(1.3);
-                   }
-
-                     
+                }
+                img{
+              
+                  margin: 5px;
+                  border-radius: 30%;
+                 border-style: inset;
+                 border: 2px solid rgb(131, 145, 136);
+                 }
+              }
+            
+              
 }
  .main{
      border-top: 1px solid black;
-     box-shadow: 10px 10px 100px rgb(224, 216, 216);
+     box-shadow: 10px 10px 12px rgb(0, 0, 0);
      font-weight: bold;
      text-align: center;
      padding: 0px;
-     
-     background-color: rgba(221, 96, 13, 0.76);
+      background-color: rgba(221, 96, 13, 0.76);
      margin: 0px;
     
-
+       
           h1 {
-            font-size: 40px;
-            color: black;
-            margin-top: 15px;
-            
-          }
+            font-size: 45px;
+            color: rgb(0, 0, 0);
+            margin-top: 5px;
+            }
              .main:hover{
-                box-shadow: 10px 12px 120px rgb(12, 1, 1);
-           }
+                box-shadow: 10px 12px 10px rgb(12, 1, 1);
+          }
            img{  
-            box-shadow: 10px 10px 20px rgb(12, 1, 1);
+            box-shadow: 10px 10px 12px rgb(12, 1, 1);
             border-radius: 35%;
-            margin-top: 15px;
-            margin-bottom: 60px;
+            margin-top: 6px;
+            margin-bottom: 120px;
             transition: all 0.3s;
             background-size: cover;
-            border: 3px solid black;
-           
-
-           }
+            border: 3px solid rgb(131, 145, 136);
+         }
            img:hover{
-            box-shadow: 10px 10px 100px rgb(12, 1, 1); 
+            box-shadow: 10px 10px 20px rgb(12, 1, 1); 
             transform: scale(1.2);
-        }
+         }
          h5{
             font-size: 23px;
             color: black;
             margin: 25px;
-            
-         }
-           
+            }
 }
 .footer{
     
@@ -113,7 +115,6 @@ body{
         background-color: rgba(38, 46, 37, 0.493); 
 
         .caja1{
-            
             background-color: rgba(0, 0, 0, 0.699);
             text-align: center;
               h8{
@@ -130,12 +131,11 @@ body{
             background-color: rgba(0, 0, 0, 0.699);  
             text-align: center;
             h7{
+                margin-left: 4%;
                 font-size: 55px;
                 color: rgb(20, 172, 45);
-
              }
-
-        }
+         }
          .caja3{
             background-color: rgba(0, 0, 0, 0.699);
             text-align: center;
@@ -144,9 +144,8 @@ body{
         {
             border-radius: 50%;
             margin: 25px;
-            border: 2px solid black;
+            border: 2px solid rgb(131, 145, 136);
         }
-        
 } 
 .cajahorarios
     {
@@ -158,27 +157,33 @@ body{
         border-style: groove;
         width: 80%;
         margin-left: 10%;
-        height: 90%; 
-        border-color: rgb(231, 223, 223);
+       border-color: rgb(231, 223, 223);
         border: 3px solid rgb(131, 145, 136);
     }
-
-
 .contactoprofes {
     margin: 20px;
     text-align: center;
     color: rgb(0, 0, 0);
-    background-color: rgba(221, 96, 13, 0.822);
+    background-color: rgba(221, 96, 13, 0.753);
     border-radius: 15%;
     border-style: groove;
-    width: 80%;
     margin-left: 10%;
-    height: 80%;
-    border-color: rgb(197, 179, 179);
+   border-color: rgb(197, 179, 179);
     border: 3px solid rgb(131, 145, 136);
+    box-shadow: 10px 10px 80px black;
+    .contactoprofes:hover
+    {
+        box-shadow: 10px 10px 18px black;
+    }
+    img
+     {
+        border-radius: 20%;
+        border: 3px solid rgb(131, 145, 136);
+        margin: 10px;
+     }
 }
 .contactomio{
-margin: 20px;
+margin: 30px;
 text-align: center;
 color: rgb(0, 0, 0);
 background-color: rgba(221, 96, 13, 0.822);
@@ -188,6 +193,11 @@ border-color: rgb(197, 179, 179);
 width: 80%;
 margin-left: 10%;
 border: 3px solid rgb(131, 145, 136);
+  img
+      {
+        border-radius: 20%;
+        border: 2px solid rgb(131, 145, 136);
+      }
 }
 a{
     margin: 10px;
@@ -196,10 +206,7 @@ a{
 h9{
  font-size: 20px;
 }
-p{
-    font-size: 20px;
-    color: black;
-}
+
 .navbar
 {
     justify-content: space-around;
@@ -207,17 +214,37 @@ p{
     padding: 0px;
     text-align: center;
     font-size: 13px;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.815);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.685);
-   
-    
-      a{
+    border: 2px solid black;
+    border-bottom: rgba(231, 223, 223, 0.199);
+      img{
+        box-shadow:10px 10px 10px rgba(5, 5, 5, 0.459);
+      }
+      img:hover{
+        box-shadow:10px 10px 10px rgba(22, 22, 22, 0.459);
+      }
+    a{
         transition: all 0.3s;
-        
-       
-         }
-       a:hover{
-       
+        justify-content: space-around;
+       }
+        a:hover{
         transform: scale(1.2);
        }
+}
+.precios{
+    margin: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(221, 96, 13, 0.822);
+    border-radius: 15%;
+    border-style: groove;
+    border-color: rgb(197, 179, 179);
+    width: 80%;
+    margin-left: 10%;
+    border: 3px solid rgb(131, 145, 136);
+     
+}
+button{
+    margin: 5px;
 }
